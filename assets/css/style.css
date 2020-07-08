@@ -1,0 +1,112 @@
+body {
+    margin: 0px;
+    font-family: Arial;
+    font-size: 12px;
+    background-color: #eeeeee;
+}
+.topo {
+    height: 30px;
+    background-color: #333;
+    color: #FFF;
+
+}
+.topoint {
+    width: 100%;
+    max-width: 1040px;
+    height: 30px;
+    margin: auto;
+}
+.topoleft {
+    width: 50%;
+    height: 30px;
+    float: left;
+}
+.toporight {
+    width: 50%;
+    height: 28px;
+    float: right;
+    text-align: right;
+    margin-top: 2px;
+
+}
+.topoleft ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.topoleft li{
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.topoleft li a{
+    text-decoration: none;
+    color: #FFF;
+
+}
+.topoleft li .ativo{
+    color: blue;
+}
+
+.topobusca{
+    width: 100px;
+    height: 20px;
+    outline: 0;
+}
+.toporight a{
+    float: right;
+}
+.toporight input{
+    float: right;
+}
+#banner{
+    display: flex;
+    justify-content: center;
+    background-image: url('../images/banner.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 820px;
+}
+form{
+    font-size: 16 px;
+    background-color: #555;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 0px 10px 10px 10px ;
+    margin-top: 150px;
+    margin-bottom: 230px;
+    opacity: 92%;
+
+
+}
+h1{
+    font-size: 24px;
+    text-align: center;
+    color: #FFF;
+}
+input, textarea {
+    width: 470px;
+    padding: 10px;
+}
+.btn{
+    position:absolute;
+    padding: 0 10px 10px 10px;
+
+}
+
+textarea{
+    width: 470px;
+    height: 120px;
+    line-height: 20px;
+}
+.rodape{
+    font-size: 18px;
+    text-align: center;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    background-color: #333;
+ 
+}
